@@ -1,0 +1,104 @@
+
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 79px;
+    margin: auto;
+}
+.main-intro{
+    font-family: 'Times New Roman', Times, serif;
+     margin-top: 20px;
+}
+
+
+.card-info{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-style: dotted;
+    padding-top: 5px;
+    
+}
+
+.card-body{
+    background-color: tomato;
+    font-size: x-large;
+
+}
+
+/* carousel */
+.slideshow{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* inventory */
+.inventory{
+    margin-bottom: 50px;
+}
+.head{
+    margin-bottom: 50px;
+    
+}
+/* contacts */
+#status{
+   width: 90%;
+   max-width: 500px;
+   text-align: center;
+    padding: 10px;
+    margin: 0 auto;   
+}
+
+#status.success{
+    background-color: teal;
+    animation: status 3s ease forwards;
+}
+
+#status.error{
+    background-color:red;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status{
+    0% {
+        opacity: 1;
+        pointer-events: all;
+
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+button[type="submit"]{
+    background-color: tomato;
+transition: .3s ease background-color
+}
+.contact{
+  margin-left: 25px;  
+  color: tomato;
+}
+
+/* footer */
+.footer{
+    background-color: tomato;
+    color: white;
+
+}
+.logo-footer{
+    margin-left: 2px;
+}
